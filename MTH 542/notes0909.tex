@@ -1,0 +1,65 @@
+
+%  This LaTeX template is based on T.J. Hitchman's work which is itself based on Dana Ernst's template.  
+% 
+% --------------------------------------------------------------
+% Skip this stuff, and head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\newenvironment{statement}[2][Section]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%
+%                         Start here
+%
+% --------------------------------------------------------------
+ 
+\title{Notes for mth542} % replace with the problem you are writing up
+\author{Esteban Morales} % replace with your name
+\maketitle
+
+
+\begin{statement}{testing of hypothesis for a population mean} %You can use theorem, exercise, problem, or question here.  Modify x.yz to be whatever number you are proving
+Type 1 Error: Rejecting a true null hypothesis when we should not reject.
+Type 2 Error: Failing to reject the null hypothesis when we should reject.\\
+
+If p-value is less than alpha, we reject the null hypothesis since our p-value tells us the likelihood of the observation happening given that the null hypothesis is true.
+
+
+The further that $H_a$ is from the $H_0$, the smaller the probability of type 2 error as the two distributions are further apart.\\
+Increase alpha to reduce probability of type 2 error
+
+
+
+\end{statement}
+
+
+\begin{statement}{testing hypothesis for a population proportion}
+For a proportion of a \\
+population the idea is similar but execution differs slightly.\\
+
+If $H_0$ were true, that if if p = 0.30, then the chance that at least 34 percent out of a random sample of 500 would watch channel 7 is only 0.0256.
+Therefore the data provides strong evidence againt $H_0$. There is strong evidence that the population 
+
+\end{statement}
+
+\begin{statement}{Relationship between two categorical data}
+Two categorical variables, want to see if they are associated in any way. We do not use the word "cause" unless we hace a very thorough study.
+
+
+\end{statement}
+
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
