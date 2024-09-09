@@ -1,0 +1,84 @@
+%  This LaTeX template is based on T.J. Hitchman's work which is itself based on Dana Ernst's template.  
+% 
+% --------------------------------------------------------------
+% Skip this stuff, and head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\newenvironment{statement}[2][]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%
+%                         Start here
+%
+% --------------------------------------------------------------
+ 
+\title{MTH 230 HW 1} % replace with the problem you are writing up
+\author{Esteban Morales} % replace with your name
+\maketitle
+
+
+\begin{statement}{Excercise 1} %You can use theorem, exercise, problem, or question here.  Modify x.yz to be whatever number you are proving
+1. Express each statement using P, Q and logical connectives.
+\\
+(a) P whenever Q. $ Q => P $\\
+(b) P is necessary for Q $ P => Q$\\
+(c) P is sufficient for Q. $P => Q$\\
+(d) P only if Q. $ Q => P$\\
+(e) P is necessary and sufficient for Q $P => Q$\\
+
+
+\end{statement}
+
+
+
+\begin{statement}{Excercise 2}
+Prove Pierce's Law: \\
+For any proposition P, Q, the proposition$ ((P -> Q) -> P) -> P$ is a
+tautology.
+\begin{proof}
+
+\begin{displaymath}
+\begin{array}{|c c|c|c|c|}
+P & Q & P=>Q& (P=>Q)=>P & ((P=>Q)=>P)=>P\\
+\hline
+T&T&T&T&T\\
+T & F & F & T & T\\
+F & T & T & F & T\\
+F & F & T & F & T\\
+
+
+\end{array}
+\end{displaymath}
+\end{proof}
+
+\end{statment}
+
+ 
+
+\begin{statement}{Excercise 3}
+Prove that $((P=>Q) \land (Q=>R) \land P) => R is a tautology$
+
+
+\end{statement}
+ 
+
+
+
+
+
+
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

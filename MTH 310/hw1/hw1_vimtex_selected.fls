@@ -1,0 +1,8 @@
+PWD /Users/esteballs/Documents/coding stuff/umiami2024/MTH 310
+INPUT /usr/local/texlive/2024basic/texmf.cnf
+INPUT /usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT hw1_vimtex_selected.tex
+OUTPUT hw1_vimtex_selected.log
+OUTPUT hw1_vimtex_selected.pdf
+INPUT hw1_vimtex_selected.aux

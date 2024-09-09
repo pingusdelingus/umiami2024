@@ -1,0 +1,22 @@
+identify types of transactions, record transactions,
+
+Users for acc. purposes
+
+external - don't work at company, shareholders, PE
+internal - work at company, HR, marketing managers etc.
+
+fraud triangle -- (opportunity, financial pressure, rationalization)
+
+GAAP -- Generally Accepted Accounting Principles
+
+
+FASB -- Financial Accounting Standards Board
+
+SEC -- Securities and Exchange commision
+
+
+IASB -- International Accounting Standards Board
+IASB create IFRS -- Int. Financial Reporting Standards
+
+
+

@@ -1,0 +1,100 @@
+%  This LaTeX template is based on T.J. Hitchman's work which is itself based on Dana Ernst's template.  
+% 
+% --------------------------------------------------------------
+% Skip this stuff, and head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\newenvironment{statement}[2][Section]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%
+%                         Start here
+%
+% --------------------------------------------------------------
+ 
+\title{Notes 230 } % replace with the problem you are writing up
+\author{Esteban Morales} % replace with your name
+\maketitle
+
+
+\begin{statement}{Strong induction$\Rightarrow $ standard inducion} 
+\end{statement}
+ 
+\begin{proof}  
+
+  Suppose strong induction holds, then for any predicate P on  $\mathbb{N}$.\\
+  If P(n) holds and $\forall k P(0) \land P(1) \land ... P(k) \Rightarrow P(k + 1)$\\
+  Then $\forall n \ge 0, P(n) holds$\\
+  Suppose P(0) holds, and $\forall k \ge 0 P(K) \Rightarrow P(K + 1)$\\
+  If P(K) is true, then P(K + 1) is true. Assume P(0) and P(1) and ... P(K)\\
+  holds true. So, so does P(K + 1). Hence, strong induction lets us calculate\\
+  $\forall n \ge 0, P(N) $
+
+
+
+\end{proof}
+
+
+\begin{statement}{Standard induction implies well ordering principle}
+  \begin{proof}
+    Let P(n) be a predication on $\mathbb{N} $\\
+    If $ \exists i \le n \in S \subseteq \mathbb{N}$\\
+   Then S has a a least element. If S is non empty, then there exists an n in S so P(N) $\Rightarrow$ well ordering principles holds for S.\\
+   Now we will prove by induction that $ \forall n \ge 0 P(N)$ is true.\\
+   Base Case: P(O) states if $ 0 \in S,$ S has a least element, namely 0 \\
+   Inductive Step: Assume P(K) If $\exists j \le k \in S$ then $\exists l \in S $ such that $m \in S \Rightarrow l \le m $
+    
+
+
+  \end{proof}
+
+
+  
+
+\end{statement}
+
+
+
+
+
+
+\begin{statement}{Well Ordering Principle implies Strong Induction}
+
+  \begin{proof}
+Assume Well ordering principle P(0)\\
+Assume by contradiction  $\exists n $ such that P(n) is false.\\
+Let S be the set of all the Positive integers,n, such that P(n) is false.
+Then S is nonempty, let l be the elast element. l $\ne 0$ because P(0) is true. As l is the least element of S, P(0), P(1) ... are all true.\\
+Hence $P(0) \land P(1) \land ... P(l - 1)$ is true, a contradiction!
+
+
+  \end{proof}
+
+\end{statement}
+
+\begin{statement}{standard induction implies strong induction}
+  \begin{proof}
+    Given a predicate P(n) let Q(n) be if $0 \le i \le n$ then P(i) is true \\
+    Suppose t
+
+
+
+
+
+  \end{proof}
+\end{statement}
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
