@@ -17,7 +17,7 @@ public class CoinFlipExperiment {
 		
 		
 		for (int index = 0; index < resultArray.length; index++) {
-			resultArray[index] = flip();
+			resultArray[index] = coinFlipExperiment();
 			if (resultArray[index] == "Heads") {
 				numOfWins += 1;
 			}
@@ -45,7 +45,7 @@ public class CoinFlipExperiment {
 	}// end of main
 
 	
-	public static String flip() {
+	public static String coinFlipExperiment() {
 		
 		double randomNum = Math.random();
 		

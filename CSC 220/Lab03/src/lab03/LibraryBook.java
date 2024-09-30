@@ -60,6 +60,7 @@ public class LibraryBook extends Book { // Lab Part 2.1
     	}
     	this.dateDue = null;
     	this.holder = null;
+    	System.out.println("Succesfully checked book into library!");
     }
     
     /**

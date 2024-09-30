@@ -171,7 +171,21 @@ public class Library {
    */
   public ArrayList<LibraryBook> lookup(String holder) {
     // Assignment Part 1
-	  return null; //placeholder
+	  
+	  // initialize empty arraylist of books 
+	  ArrayList<LibraryBook> returnList = new ArrayList<LibraryBook>();
+	  
+	  
+	  for(int index = 0; index < this.library.size(); index++) {
+		  if (this.library.get(index).getHolder() == holder) {
+			  returnList.add(this.library.get(index));
+		  }
+		  
+		  
+	  }// end of the for loop
+	  
+	  
+	  return returnList; //placeholder
   }  
 
   /**
@@ -184,8 +198,28 @@ public class Library {
    *          ISBN of the library book to be checked in
    */
   public boolean checkin(long isbn) {
+	  LibraryBook candidate;
+	  for (int index = 0; index < this.library.size(); index++) {
+		  if (this.library.get(index).getIsbn() == isbn) {
+			  candidate = this.library.get(index);
+			  if (candidate.getHolder() == null) {
+				  System.out.println("This book is already checked in!");
+				  
+				  return false;
+			  }
+			  candidate.checkin();
+			  return true;
+		  }
+		  
+		  
+		  
+	  }// end of for loop
+	  return false;
+	  
+	  
+	  
     // Assignment Part 2.1
-	  return false; // placeholder
+	  
   }
 
   /**
@@ -199,6 +233,22 @@ public class Library {
    */
   public boolean checkin(String holder) {
 	  // Assignment Part 2.1
-	  return false; // placeholder
-  }
+	  int count = 0;
+	  for (int index = 0; index < this.library.size(); index++) {
+		  if (this.library.get(index).getHolder() == holder) {
+			  boolean result = this.checkin(this.library.get(index).getIsbn());
+			  if (result == true) {
+				  System.out.println("Just checked in " + this.library.get(index));
+				  count += 1;
+			  }
+		  }
+		  
+		  
+	  }// end of for loop
+	  if (count != 0) {
+		  return true;
+	  }else {
+		  return false;
+	  }
+  }// end of checkin method
 }
