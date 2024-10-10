@@ -73,6 +73,8 @@ public class InsertionSort<E extends Comparable<E>> {
 
         /* Perform the insertion sort */
         for(int index=1; index < sorted.length; index++)
+        	
+        	
         {
             // FILL IN
         	E key = sorted[index];

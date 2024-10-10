@@ -29,14 +29,14 @@ public class Tester{
 		System.out.println(answer + " this is result");
 		
 		
-		InsertionSort<Integer> bleh = new InsertionSort<Integer>();
+		InsertionSort<Integer> insertionSort = new InsertionSort<Integer>();
 		Integer[] list = {5, 7};
-		Integer[] ans = bleh.sort(list);
+		Integer[] ans = insertionSort.sort(list);
 		Tester.printIntArr(ans);
 		
-		InsertionSort<SortedString> bleh2 = new InsertionSort<SortedString>();
+		InsertionSort<SortedString> insertionsorter = new InsertionSort<SortedString>();
 		SortedString[] stuff2 = SortedString.toSortedString(stuff);
-		SortedString[] ans3 = bleh2.sort(stuff2);
+		SortedString[] ans3 = insertionsorter.sort(stuff2);
 		Tester.printSSArr(ans3);
 		
 		Double[] longstuff = new Double[1000];
@@ -44,12 +44,29 @@ public class Tester{
 		for(int index = 0; index < longstuff.length; index++) {
 			longstuff[index] = Math.random() * 20 + (Math.random()- 1/2);
 			
-		}// end of for
-		InsertionSort<Double> bleh3 = new InsertionSort<Double>();
+		}
+		InsertionSort<Double> insertionDouble = new InsertionSort<Double>();
 		System.out.println("running fit");
-		bleh3.fit(longstuff);
+		insertionDouble.fit(longstuff);
 		System.out.println("end of  fit");
-		System.out.println(bleh3.predict(1000));
+		System.out.println(insertionDouble.predict(1000));
+//		
+		Integer[] nums = {5,-2,500,-26,3,0,-1,4,1,0,29,25};
+		
+		
+		String[] s3 = AnagramUtil.getLargestAnagramGroup("sample_word_list.txt");
+		printStrArr(s3);
+		MergeSort<Integer> mergeSorter = new MergeSort<Integer>();
+		Integer[] res = mergeSorter.sort(nums);
+		printIntArr(res);
+		insertionSort.fit(nums);
+		mergeSorter.fit(nums);
+		double y = insertionSort.predict(100);
+		double x= mergeSorter.predict(100);
+		System.out.println(" asdhfkladjf");
+		System.out.println(y);
+		System.out.println(x);
+		
 		
 		
 		

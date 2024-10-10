@@ -27,8 +27,7 @@ public class AnagramUtil {
     	}else {
     		return false;
     	}
-        // TODO: Lab Part 2
-        //return false; // placeholder
+        
     }
 
     /**
@@ -56,16 +55,54 @@ public class AnagramUtil {
 
         /* Initialize a sorting algorithm of type SortedString using either
          MergeSort or InsertionSort */
-
-        /* sort the input string list */
-
-
-        /* The case where stringList is of size 1 or less */
+    	MergeSort<SortedString> insertSort = new MergeSort<SortedString>();
+    	stringList = insertSort.sort(stringList);
+    	
+    	for (int index = 0; index < stringList.length; index++) {
+			System.out.println(stringList[index].getSorted() + " ");
+			
+		}// end of for loop 
+    	
+        
+    	if (stringList.length == 1) {
+    		String[] ans = {stringList[0].getSorted()};
+    		return ans;
+    	}else if (stringList.length == 0) {
+    		 String[] ans = new String[1];
+    		 return ans;
+    	}
 
 
         /* The variables for the logic following */
-        int end = 0, length = 1, i = 0, maxLength = 0;
+        int end = 0, length = 1, maxLength = 0;
+        for (int index = 0; index < stringList.length - 1; index++) {
+        	
+        	if(stringList[index].getSorted().equals(stringList[index + 1].getSorted())) {
+        		length += 1;
+        		
+        	}else {
+        		if (length > maxLength) {
+        			maxLength = length;
+        			end = index;
+        		}
+        		
+        		length = 1;
+        		
+        		
+        	}
+        	if (index == stringList.length - 2 && length > maxLength) {
+        		maxLength = length;
+        		end = stringList.length - 1;
+        	}
+        	
+        
+        	
+        	
+        	
+        }// end of for loop
 
+        
+        
         /* Loop through stringList.
 
            If stringList[i] and stringList[i + 1] are anagrams, increment the
@@ -88,10 +125,13 @@ public class AnagramUtil {
            for one thing...
         */
         String[] toReturn = new String[maxLength];
-//        for (int j = 0; j < maxLength; j++)
-//            toReturn[j] = stringList[j+end-maxLength+1];
+        for (int j = 0; j < maxLength; j++) {
+        	 toReturn[j] = stringList[j+end-maxLength+1].getUnsorted();
 
-        return null; // return the right thing
+        	
+        }
+           
+        return toReturn; // return the right thing
     }
 
     /**

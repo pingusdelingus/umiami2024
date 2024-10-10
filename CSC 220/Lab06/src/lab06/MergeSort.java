@@ -21,7 +21,7 @@ public class MergeSort<E extends Comparable<E>> {
      */
     public double O(int n) {
         // TODO: Assignment Part 3.1
-        return 0; // placeholder
+        return n * Math.log(n) / Math.log(2); // placeholder
     }
 
     /**
@@ -32,6 +32,10 @@ public class MergeSort<E extends Comparable<E>> {
      */
     public void fit(E[] array) {
         // TODO: Assignment Part 3.2
+    	long start = System.nanoTime();
+    	sort(array);
+    	long end = System.nanoTime();
+    	this.c = (double)(end - start) / 1000.0;
     }
 
     /**
@@ -42,7 +46,7 @@ public class MergeSort<E extends Comparable<E>> {
      */
     public double predict(int n) {
         // TODO: Assignment Part 3.3
-        return Double.POSITIVE_INFINITY; // placeholder
+    	return this.c * O(n); // placeholder
     }
 
     /**
@@ -81,16 +85,42 @@ public class MergeSort<E extends Comparable<E>> {
         int a = first;
         int b = middle + 1;
         while (a <= middle && b <= last) {
+        	if (array1[a].compareTo(array1[b]) <= 0) {
+        		array2[i] = array1[a];
+        		i++;
+        		a++;
+        	}else {
+        		array2[i] = array1[b];
+        		i++;
+        		b++;
+        	}
+        	
+        	
+        	
             // EXERCISE
 
             // Copy the smaller of array1[a] or array1[b] to array2[i]
             // (in case of a tie, copy array1[a])
             // and increment i and a or b (the one you copied).
-            break; // DELETE this break after implementing
+            // DELETE this break after implementing
         }
 
         // EXERCISE
         // Copy the rest of a or b, whichever is not at the end.
+        while (a <= middle) {
+        	array2[i] = array1[a];
+        	i++;
+        	a++;
+        	
+        	
+        }
+        while (b <= last) {
+        	array2[i] = array1[b];
+        	i++;
+        	b++;
+        	
+        	
+        }
 
         // Copy the merged subarrays back into array1
         System.arraycopy(array2, first, array1, first, last - first + 1);
