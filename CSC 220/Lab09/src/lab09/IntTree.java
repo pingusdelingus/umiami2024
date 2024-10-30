@@ -295,12 +295,12 @@ public class IntTree {
 	public void perfectify() {
 		// TODO: Assignment Part 3
 		int depth = this.getDepth();
-		double expectedEmpty =  Math.pow(2, depth + 1) - Math.pow(2, depth);
-		int currEmpty = this.numEmpty();
+		//double expectedEmpty =  Math.pow(2, depth + 1) - Math.pow(2, depth);
+		//int currEmpty = this.numEmpty();
 		
-		if (currEmpty == expectedEmpty) {
-			return;
-		}
+		//if (currEmpty == expectedEmpty) {
+		//	return;
+		//}
 		perfTraverse(root,1, depth);
 		
 		
