@@ -239,14 +239,15 @@ public class IntTree {
 	 * @return true if the value occurs at least three times, false otherwise
 	 */
 	public int traverse(IntNode root, int value, int counter) {
-		int total = 0;
+		
 		if (root == null) {
 			return 0;
 		}
 		
 		if (root.data == value) {
 			counter++;
-			return 1;
+			return 1 + traverse(root.left, value, counter) + traverse(root.right, value, counter);
+
 		}
 		
 		
@@ -276,8 +277,33 @@ public class IntTree {
 	 * is the same length.
 	 * 
 	 **/
+	public void perfTraverse(IntNode root, int currDepth, int finalDepth) {
+		if (currDepth >= finalDepth) {
+			return;
+		}
+			if (root.left == null) {
+				root.left = new IntNode(-1);
+			}
+			if (root.right == null) {
+				root.right = new IntNode(-1);
+			}
+		perfTraverse(root.left, currDepth + 1, finalDepth);
+		perfTraverse(root.right, currDepth + 1, finalDepth);
+		
+		
+	}// end of traverse
 	public void perfectify() {
 		// TODO: Assignment Part 3
+		int depth = this.getDepth();
+		double expectedEmpty =  Math.pow(2, depth + 1) - Math.pow(2, depth);
+		int currEmpty = this.numEmpty();
+		
+		if (currEmpty == expectedEmpty) {
+			return;
+		}
+		perfTraverse(root,1, depth);
+		
+		
 	}
 
 	/**

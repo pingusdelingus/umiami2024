@@ -158,9 +158,19 @@ public class IntTreeTester {
 			System.err.println("TEST FAILED: luckyTree(7) with tree_ref2");
 		if (!tree_ref3.luckyTree(7))
 			System.err.println("TEST FAILED: luckyTree(7) with tree_ref3");
+		
+		
+		
+		
+		
+		
+		
 		if (!tree_ref4.luckyTree(4))
 			System.err.println("TEST FAILED: luckyTree(4) with tree_ref4");
 
+		
+		
+		
 		
 		
 		
