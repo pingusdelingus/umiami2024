@@ -42,6 +42,8 @@ public class MaxHeap {
      */
     public MaxHeap(int[] arr){
         // TODO for Assignment Part 2
+        //
+        heapify(arr);
     }
 
     /**
@@ -310,9 +312,48 @@ public class MaxHeap {
      * or there are no more children.
      * 
      * @param index the index of the node to sift down
-     * TODO Assignment Part 1
      */
     private void siftDown(int index) {
-        // TODO Assignment Part 1
+         int leftChildIndex = (2 * index) + 1;
+         int rightChildIndex = (2 * index ) + 2;
+          int maxIndex = -1;
+          if (this.theData[leftChildIndex] >= this.theData[rightChildIndex] && this.theData[leftChildIndex] > this.theData[index]){
+          maxIndex = leftChildIndex;
+
+          }// end of if
+
+          if (this.theData[rightChildIndex] >= this.theData[leftChildIndex] && this.theData[rightChildIndex] > this.theData[index]){
+          maxIndex = rightChildIndex;
+
+          }// end of if
+         //TODO might break change le to l
+          while (leftChildIndex <= size && rightChildIndex <= size && maxIndex != -1){
+          swap(index, maxIndex);
+          index = maxIndex;
+
+         int leftChildIndex = (2 * index) + 1;
+         int rightChildIndex = (2 * index ) + 2;
+          int maxIndex = -1;
+          if (this.theData[leftChildIndex] >= this.theData[rightChildIndex] && this.theData[leftChildIndex] > this.theData[index]){
+          maxIndex = leftChildIndex;
+
+          }// end of if
+
+          if (this.theData[rightChildIndex] >= this.theData[leftChildIndex] && this.theData[rightChildIndex] > this.theData[index]){
+          maxIndex = rightChildIndex;
+
+          }// end of if
+
+
+          }
+
+
+//  left child is (2* index) + 1
+// 		right child is (2 * index) + 2
+// find parent by (index - 1) / 2
+
+
+        
+        
     }
 }
