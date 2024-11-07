@@ -1,0 +1,1258 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.7)  6 NOV 2024 19:51
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2024basic/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2024basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/local/texlive/2024basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
+\l__pdf_internal_box=\box51
+) (./template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+ [1
+
+{/usr/local/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./template.tex:13: Undefined control sequence.
+l.13 \pdfbookmark
+                 [section]{\contentsname}{toc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1]
+No file template.toc.
+\tf@toc=\write3
+\openout3 = `template.toc'.
+
+[2
+
+]
+Chapter 1.
+./template.tex:19: Undefined control sequence.
+l.19 \dfn
+         {Limit of Sequence in $\bs{\bbR}$}{Let $\{s_n\}$ be a sequence in $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 19.
+./template.tex:19: Undefined control sequence.
+<recently read> \bs 
+                    
+l.19 \dfn{Limit of Sequence in $\bs
+                                   {\bbR}$}{Let $\{s_n\}$ be a sequence in $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+l.19 \dfn{Limit of Sequence in $\bs{\bbR
+                                        }$}{Let $\{s_n\}$ be a sequence in $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+<recently read> \bbR 
+                     
+l.19 ...bR}$}{Let $\{s_n\}$ be a sequence in $\bbR
+                                                  $. We say $$\lim_{n\to\inf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+l.19 ...$$\lim_{n\to\infty}s_n=s$$ where $s\in\bbR
+                                                  $ if $\forall$ real number...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+<recently read> \eps 
+                     
+l.19 ...$s\in\bbR$ if $\forall$ real numbers $\eps
+                                                  >0$ $\exists$ natural numb...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+l.19 ...al number $N$ such that for $n>N$ $$s-\eps
+                                                  <s_n<s+\eps\text{ i.e. }|s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+l.19 ...N$ such that for $n>N$ $$s-\eps<s_n<s+\eps
+                                                  \text{ i.e. }|s-s_n|<\eps$$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+l.19 ...ch that for $n>N$ $$s-\eps<s_n<s+\eps\text
+                                                  { i.e. }|s-s_n|<\eps$$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+l.19 ...s-\eps<s_n<s+\eps\text{ i.e. }|s-s_n|<\eps
+                                                  $$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:20: Undefined control sequence.
+l.20 \qs
+        {}{Is the set ${x-}$axis${\setminus\{\text{Origin}\}}$ a closed set}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:20: Undefined control sequence.
+l.20 \qs{}{Is the set ${x-}$axis${\setminus\{\text
+                                                  {Origin}\}}$ a closed set}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:21: Undefined control sequence.
+l.21 \sol
+          We have to take its complement and check whether that set is a ope...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:22: Undefined control sequence.
+l.22 \nt
+        {We will do topology in Normed Linear Space  (Mainly $\bbR^n$ and oc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:22: Undefined control sequence.
+<recently read> \bbR 
+                     
+l.22 ...logy in Normed Linear Space  (Mainly $\bbR
+                                                  ^n$ and occasionally $\bbC...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:22: Undefined control sequence.
+<recently read> \bbC 
+                     
+l.22 ...e  (Mainly $\bbR^n$ and occasionally $\bbC
+                                                  ^n$)using the language of ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:23: Undefined control sequence.
+l.23 \clm
+         {Topology}{}{Topology is cool}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:24: Undefined control sequence.
+l.24 \ex
+        {Open Set and Close Set}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:33: Undefined control sequence.
+l.33 \thm
+         {}{If $x\in$ open set $V$ then $\exists$ $\delta>0$ such that $B_{\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./template.tex:34: LaTeX Error: Environment myproof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{myproof}
+                    By openness of $V$, $x\in B_r(u)\subset V$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./template.tex:36: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 		\begin{tikzpicture}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:37: Undefined control sequence.
+l.37 			\draw
+             [red] (0,0) circle [x radius=3.5cm, y radius=2cm] ;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:38: Undefined control sequence.
+l.38 			\draw
+              (3,1.6) node[red]{$V$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:39: Undefined control sequence.
+l.39 			\draw
+              [blue] (1,0) circle (1.45cm) ;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:40: Undefined control sequence.
+l.40 			\filldraw
+                 [blue] (1,0) circle (1pt) node[anchor=north]{$u$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:41: Undefined control sequence.
+l.41 			\draw
+              (2.9,0.4) node[blue]{$B_r(u)$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:42: Undefined control sequence.
+l.42 			\draw
+              [green!40!black] (1.7,0) circle (0.5cm) node [yshift=0.7cm]{$B...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:43: Undefined control sequence.
+l.43 			\filldraw
+                 [green!40!black] (1.7,0) circle (1pt) node[anchor=west]{$x$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./template.tex:44: LaTeX Error: \begin{center} on input line 35 ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 		\end{tikzpicture}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./template.tex:50: LaTeX Error: \begin{document} ended by \end{myproof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \end{myproof}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:52: Undefined control sequence.
+l.52 \cor
+         {}{By the result of the proof, we can then show...}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:53: Undefined control sequence.
+l.53 \mlenma
+            {}{Suppose $\vec{v_1}, \dots, \vec{v_n} \in \RR[n]$ is subspace ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:53: Undefined control sequence.
+l.53 ...ppose $\vec{v_1}, \dots, \vec{v_n} \in \RR
+                                                  [n]$ is subspace of $\RR^n$.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:53: Undefined control sequence.
+<recently read> \RR 
+                    
+l.53 ... \vec{v_n} \in \RR[n]$ is subspace of $\RR
+                                                  ^n$.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:54: Undefined control sequence.
+l.54 \mprop
+           {}{$1 + 1 = 2$.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:57: Undefined control sequence.
+l.57 \dfn
+         {Normed Linear Space and Norm $\boldsymbol{\|\cdot\|}$}{Let $V$ be ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:57: Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.57 ...{Normed Linear Space and Norm $\boldsymbol
+                                                  {\|\cdot\|}$}{Let $V$ be a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:57: Undefined control sequence.
+<recently read> \bbR 
+                     
+l.57 ...\|}$}{Let $V$ be a vector space over $\bbR
+                                                  $ (or $\bbC$). A norm on $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:57: Undefined control sequence.
+<recently read> \bbC 
+                     
+l.57 ...V$ be a vector space over $\bbR$ (or $\bbC
+                                                  $). A norm on $V$ is funct...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:57: Undefined control sequence.
+l.57 ...m on $V$ is function $\|\cdot\|\ V\to \bbR
+                                                  _{\geq 0}$ satisfying \beg...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3
+
+]
+./template.tex:57: Undefined control sequence.
+l.57 ...rate}[label=\bfseries\tiny\protect\circled
+                                                  {\small\arabic*}]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:57: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.57 ...series\tiny\protect\circled{\small\arabic*
+                                                  }]
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./template.tex:58: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 		\item \label
+                   {n:1}$\|x\|=0 \iff x=0$ $\forall$ $x\in V$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:58: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 		\item \label
+                   {n:1}$\|x\|=0 \iff x=0$ $\forall$ $x\in V$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:58: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 		\item \label
+                   {n:1}$\|x\|=0 \iff x=0$ $\forall$ $x\in V$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:59: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 		\item \label
+                   {n:2}	$\|\lambda x\|=|\lambda|\|x\|$ $\forall$ $\lambda\i...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:59: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 		\item \label
+                   {n:2}	$\|\lambda x\|=|\lambda|\|x\|$ $\forall$ $\lambda\i...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:59: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 		\item \label
+                   {n:2}	$\|\lambda x\|=|\lambda|\|x\|$ $\forall$ $\lambda\i...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./template.tex:59: Undefined control sequence.
+l.59 ...=|\lambda|\|x\|$ $\forall$ $\lambda\in\bbR
+                                                  $(or $\bbC$), $x\in V$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:59: Undefined control sequence.
+<recently read> \bbC 
+                     
+l.59 ...\|x\|$ $\forall$ $\lambda\in\bbR$(or $\bbC
+                                                  $), $x\in V$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./template.tex:60: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 		\item \label
+                   {n:3} $\|x+y\| \leq \|x\|+\|y\|$ $\forall$ $x,y\in V$ (Tr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:60: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 		\item \label
+                   {n:3} $\|x+y\| \leq \|x\|+\|y\|$ $\forall$ $x,y\in V$ (Tr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:60: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 		\item \label
+                   {n:3} $\|x+y\| \leq \|x\|+\|y\|$ $\forall$ $x,y\in V$ (Tr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:61: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 	\end{enumerate}
+                     And $V$ is called a normed linear space.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./template.tex:63: Undefined control sequence.
+<recently read> \bbC 
+                     
+l.63 ...n works with $V$ a vector space over $\bbC
+                                                  $ (again $\|\cdot\|\to\bbR...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:63: Undefined control sequence.
+l.63 ...space over $\bbC$ (again $\|\cdot\|\to\bbR
+                                                  _{\geq 0}$) where \ref{n:2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `n:2' on page 4 undefined on input line 63.
+
+./template.tex:63: Undefined control sequence.
+l.63 ...=|\lambda|\|x\|$ $\forall$ $\lambda\in\bbC
+                                                  $, $x\in V$, where for $\l...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:66: Undefined control sequence.
+l.66 \ex
+        {$\bs{p-}$Norm}{\label{pnorm}$V={\bbR}^m$, $p\in\bbR_{\geq 0}$. Defi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:66: Undefined control sequence.
+<recently read> \bs 
+                    
+l.66 \ex{$\bs
+             {p-}$Norm}{\label{pnorm}$V={\bbR}^m$, $p\in\bbR_{\geq 0}$. Defi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:66: Undefined control sequence.
+l.66 \ex{$\bs{p-}$Norm}{\label{pnorm}$V={\bbR
+                                             }^m$, $p\in\bbR_{\geq 0}$. Defi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:66: Undefined control sequence.
+l.66 ...Norm}{\label{pnorm}$V={\bbR}^m$, $p\in\bbR
+                                                  _{\geq 0}$. Define for $x=...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:66: Undefined control sequence.
+l.66 ... Define for $x=(x_1,x_2,\cdots,x_m)\in\bbR
+                                                  ^m$ $$\|x\|_p=\Big(|x_1|^p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:67: Undefined control sequence.
+<recently read> \bs 
+                    
+l.67 \textbf{Special Case $\bs{p=1}$}
+                                     : $\|x\|_1=|x_1|+|x_2|+\cdots+|x_m|$ is...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:68: Undefined control sequence.
+<recently read> \bs 
+                    
+l.68 ...fty\ (\bbR^m$ with $\|\cdot\|_{\infty})}$}
+                                                  : $\|x\|_{\infty}=\max\{|x...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:68: Undefined control sequence.
+<argument> Special Case $\bs {p\to \infty \ (\bbR 
+                                                  ^m$ with $\|\cdot \|_{\inf...
+l.68 ...fty\ (\bbR^m$ with $\|\cdot\|_{\infty})}$}
+                                                  : $\|x\|_{\infty}=\max\{|x...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:68: Missing } inserted.
+<inserted text> 
+                }
+l.68 ...fty\ (\bbR^m$ with $\|\cdot\|_{\infty})}$}
+                                                  : $\|x\|_{\infty}=\max\{|x...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:68: Extra }, or forgotten $.
+<argument> ...bbR ^m$ with $\|\cdot \|_{\infty })}
+                                                  $
+l.68 ...fty\ (\bbR^m$ with $\|\cdot\|_{\infty})}$}
+                                                  : $\|x\|_{\infty}=\max\{|x...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:71: Undefined control sequence.
+l.71 \qs
+        {}{\label{exs1}Prove that triangle inequality is true if $p\geq 1$ f...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:72: Undefined control sequence.
+l.72 \sol
+         {\textbf{For Property \ref{n:3} for norm-2}	\subsubsection*{\textbf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `n:3' on page 4 undefined on input line 72.
+
+./template.tex:72: Undefined control sequence.
+<recently read> \bbR 
+                     
+l.72 ...ubsection*{\textbf{When field is $\bbR:$}}
+                                                   We have to show\begin{ali...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./template.tex:72: LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...is $\bbR:$}} We have to show\begin{align*}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:73: Misplaced alignment tab character &.
+l.73 		         &
+                  \sum_i(x_i+y_i)^2\leq \left(\sqrt{\sum_ix_i^2} +\sqrt{\sum...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:73: Missing $ inserted.
+<inserted text> 
+                $
+l.73 		         & \sum
+                      _i(x_i+y_i)^2\leq \left(\sqrt{\sum_ix_i^2} +\sqrt{\sum...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:74: Undefined control sequence.
+<recently read> \implies 
+                         
+l.74 		\implies
+                & \sum_i (x_i^2+2x_iy_i+y_i^2)\leq \sum_ix_i^2+2\sqrt{\left[...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:74: Misplaced alignment tab character &.
+l.74 		\implies &
+                  \sum_i (x_i^2+2x_iy_i+y_i^2)\leq \sum_ix_i^2+2\sqrt{\left[...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:75: Undefined control sequence.
+<recently read> \implies 
+                         
+l.75 		\implies
+                & \left[\sum_ix_iy_i\right]^2\leq \left[\sum_ix_i^2\right]\l...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:75: Misplaced alignment tab character &.
+l.75 		\implies &
+                  \left[\sum_ix_iy_i\right]^2\leq \left[\sum_ix_i^2\right]\l...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./template.tex:76: LaTeX Error: \begin{document} ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 	\end{align*}
+                  So in other words prove $\langle x,y\rangle^2 \leq \langle...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:76: Missing $ inserted.
+<inserted text> 
+                $
+l.76 	\end{align*}
+                  So in other words prove $\langle x,y\rangle^2 \leq \langle...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./template.tex:79: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 	\begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:83: Undefined control sequence.
+<recently read> \bbR 
+                     
+l.83 ...item $\langle \cdot,\cdot\rangle$ is $\bbR
+                                                  -$linear in each slot i.e....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./template.tex:83: LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...R-$linear in each slot i.e. \begin{align*}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:84: Missing $ inserted.
+<inserted text> 
+                $
+l.84 				      \langle
+                       rx+x',y\rangle=r\langle x,y\rangle+\langle x',y\rangl...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:84: Undefined control sequence.
+l.84 ...angle x,y\rangle+\langle x',y\rangle	\text
+                                                  { and similarly for second...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./template.tex:85: LaTeX Error: \begin{itemize} on input line 80 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 			      \end{align*}
+                          Here in $\langle x,y\rangle$ $x$ is in first slot ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:85: Missing $ inserted.
+<inserted text> 
+                $
+l.85 			      \end{align*}
+                          Here in $\langle x,y\rangle$ $x$ is in first slot ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (74.02736pt too wide) in paragraph at lines 83--86
+[]$\OMS/cmsy/m/n/10 h^^A\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^Ai$ \OT1/cmr/m/n/10 is $\OMS/cmsy/m/n/10 ^^@$\OT1/cmr/m/n/10 linear in each slot i.e.  $\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 rx \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 x[]; y\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 r\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 x; y\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 x[]; y\OMS/cmsy/m/n/10 i[]$\OT1/cmr/m/n/10 Here
+ []
+
+
+./template.tex:87: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 	\end{note}
+                Now the statement is just the Cauchy-Schwartz Inequality. Fo...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./template.tex:87: LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...tion in variable $\lambda $ \begin{align*}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:88: Missing $ inserted.
+<inserted text> 
+                $
+l.88 		\langle
+               x-\lambda y,x-\lambda y\rangle & =\langle x,x-\lambda y\rangl...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:88: Misplaced alignment tab character &.
+l.88 		\langle x-\lambda y,x-\lambda y\rangle &
+                                                =\langle x,x-\lambda y\rangl...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:89: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.89 		                                       &
+                                                =\langle x ,x\rangle -\lambd...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:90: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.90 		                                       &
+                                                =\langle x,x\rangle -2\lambd...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./template.tex:91: LaTeX Error: \begin{document} ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 	\end{align*}
+                  Now unless $x=\lambda y$ we have $\langle x-\lambda y,x-\l...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:91: Missing $ inserted.
+<inserted text> 
+                $
+l.91 	\end{align*}
+                  Now unless $x=\lambda y$ we have $\langle x-\lambda y,x-\l...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:93: Undefined control sequence.
+<recently read> \bbC 
+                     
+l.93 ...ubsection*{\textbf{When field is $\bbC:$}}
+                                                  Modify the definition by $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4]
+
+./template.tex:96: LaTeX Error: Environment algorithm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \begin{algorithm}
+                      [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./template.tex:97: Undefined control sequence.
+l.97 \KwIn
+          {This is some input}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:98: Undefined control sequence.
+l.98 \KwOut
+           {This is some output}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:99: Undefined control sequence.
+l.99 \SetAlgoLined
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:100: Undefined control sequence.
+l.100 \SetNoFillComment
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:101: Undefined control sequence.
+l.101 \tcc
+          {This is a comment}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:106: Undefined control sequence.
+l.106 \uIf
+          {$ x > 5$} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:107: Undefined control sequence.
+l.107     x is greater than 5 \tcp
+                                  *{This is also a comment}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:109: Undefined control sequence.
+l.109 \Else
+            {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:112: Undefined control sequence.
+l.112 \ForEach
+              {y in 0..5} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:115: Undefined control sequence.
+l.115 \For
+          {$y$ in $0..5$} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:118: Undefined control sequence.
+l.118 \While
+            {$x > 5$} {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:121: Undefined control sequence.
+l.121 \Return
+              Return something here\;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./template.tex:122: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \caption
+              {what}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./template.tex:123: LaTeX Error: \begin{document} ended by \end{algorithm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \end{algorithm}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5] (./template.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 527 strings out of 475567
+ 9680 string characters out of 5777890
+ 1939187 words of memory out of 5000000
+ 22744 multiletter control sequences out of 15000+600000
+ 564181 words of font info for 56 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 35i,8n,50p,335b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/esteballs/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on template.pdf (6 pages, 180583 bytes).
+PDF statistics:
+ 103 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -91,36 +91,44 @@ public class QuadraticProbingHashTable {
     
     public void rehash() {
         //TODO: Lab Part 5
+        int hashAtX = 0;
+        int newSize = 0;
     	HashEntry[] newstuff = new HashEntry[2 * this.HashTable.length];
     	for (int index = 0; index < this.HashTable.length; index++) {
-    		if (this.HashTable[index] != null) {
-    			int hashOfX = hash(this.HashTable[index].element, 2 * this.HashTable.length);
-    			
-    			if (newstuff[hashOfX] == null || newstuff[hashOfX].isActive == false) {
-    	    		newstuff[hashOfX] = new HashEntry(this.HashTable[index].element);
-    	    		this.currentSize += 1;
-    	    	}
-    	    	
-    	    	// if not null, they must not be equal because of our check above in the first if statement
-    	    	if (this.HashTable[hashOfX] != null && this.HashTable[hashOfX].element != this.HashTable[index].element) {
-    	    		//assume they are not equal, do a quadratic hash
-    	    		int collisions = 0;
-    	    		//check new prob
-    	    		int nextIndex = probIndex(this.HashTable[index].element,hashOfX, collisions);
-    	    		int loopCount = 0;
-    	    		//TODO ADD CHECK FOR INFINITE LOOP
-    	    		while((this.HashTable[nextIndex] != null&& this.HashTable[hashOfX].element != this.HashTable[index].element && this.HashTable[nextIndex].isActive == true) && loopCount <= this.HashTable.length) {
-    	    			collisions += 1;
-    	    			loopCount += 1;
-    	    			nextIndex = probIndex(this.HashTable[index].element,hashOfX, collisions);
-    	    		}
-    	    		newstuff[nextIndex] = new HashEntry(this.HashTable[index].element);
-    	    		this.currentSize += 1;
-    	    	}
-    		}else {
-    			newstuff[index] = null;
-    		}
+        if (this.HashTable[index] != null){
+        hashAtX = hash(this.HashTable[index], newstuff.length);
+         	if (this.HashTable[hashAtX] == null || this.HashTable[hashAtX].isActive == false) {
+    		newstuff[hashAtX] = new HashEntry(x);
+    		newSize += 1;
     	}
+	if (this.HashTable[hashAtX] != null && this.HashTable[hashAtX].element != x) {
+    		//assume they are not equal, do a quadratic hash
+    		int collisions = 0;
+    		//check new prob
+    		int nextIndex = probIndex(x,hashAtX, collisions);
+    		int loopCount = 0;
+    		//TODO ADD CHECK FOR INFINITE LOOP
+    		while((newstuff[nextIndex] != null&& newstuff[hashAtX].element != x && newstuff[nextIndex].isActive == true) && loopCount <= this.HashTable.length * 2) {
+    			collisions += 1;
+    			loopCount += 1;
+    			nextIndex = probIndex(x,hashAtX, collisions);
+    		}
+    		newstuff[nextIndex] = new HashEntry(x);
+    		newSize += 1;
+    	}
+
+
+
+
+        }// end of if
+
+        
+
+
+    	}// end of for loop
+      //
+      //
+      //copy over the array pointer
     	this.HashTable = newstuff;
     }
 
