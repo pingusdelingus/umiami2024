@@ -37,15 +37,51 @@ public class MaxHeap {
     /**
      * Constructor that initializes a heap and organizes the input array to
      * form a valid max heap.
-     * 
+     *<b>i hate this lab <b>
      * @param arr the input array to be organized into a max heap
      */
     public MaxHeap(int[] arr){
-        // TODO for Assignment Part 2
-        //
-        heapify(arr);
+    	this(arr.length);
+        
+    	for(int index = 0; index < arr.length; index++) {
+    		this.offer(arr[index]);
+    	}// end of for 
+    	
+    	
+    	
+//    	
+//    	this.sort(arr);
+//    	
+//    	this.size = arr.length;
+//    	
+//    	if (this.size == 0) {
+//    		this.theData = arr;
+//    		return;
+//    	}
+//    	for (int index = 0; index < this.size; index++) {
+//    		if (index == 0) {
+//    			this.theData[index] = arr[index];
+//    		}
+//    		this.offer(arr[index]);
+//    	}
+    	
+//    	for(int index = 0; index < this.size / 2; index ++) {
+//    		int jdex = 0;
+//    		int temp;
+//    		
+//    		temp = this.theData[index];
+//    		this.theData[index] = this.theData[jdex];
+//    		this.theData[jdex] = temp;
+//    		
+//    		
+//    		
+//    		
+//    	}// end of for 
+    	
+        
+        
     }
-
+   
     /**
      * Returns the current number of elements in the heap.
      * @return the current size of the heap
@@ -307,45 +343,86 @@ public class MaxHeap {
      * the max-heap property. 
      * 
      * If a child (left or right child of the index) has a larger value than 
-     * the parent, the largest child value is swapped with the parent, 
-     * and the node is sifted down until no sifting is needed 
-     * or there are no more children.
+     * the parent, the largest child value is swapped with the parent, and the node is sifted down until no sifting is needed or there are no more children.
      * 
      * @param index the index of the node to sift down
      */
     private void siftDown(int index) {
-         int leftChildIndex = (2 * index) + 1;
-         int rightChildIndex = (2 * index ) + 2;
-          int maxIndex = -1;
-          if (this.theData[leftChildIndex] >= this.theData[rightChildIndex] && this.theData[leftChildIndex] > this.theData[index]){
-          maxIndex = leftChildIndex;
+    	if (this.size == 0) {
+    		return;
+    	}
+    	
+    	
+    	
+    	int currIndex = index;
+    	int leftIndex = this.leftChild(currIndex);
+    	int rightIndex = this.rightChild(currIndex);
+    	
+    	int maxChildIndex;
+    	if (leftIndex < size && rightIndex < size && this.theData[leftIndex] > this.theData[rightIndex] ) {
+    		maxChildIndex = leftIndex;
+    	}else {
+    		maxChildIndex = rightIndex;
+    	}
+    	
+    	
+    	while (leftIndex < size && rightIndex < size && this.theData[currIndex] < this.theData[maxChildIndex] ) {
+    		this.swap(currIndex, maxChildIndex);
+    		currIndex = maxChildIndex;
+    		 leftIndex = this.leftChild(currIndex);
+        	 rightIndex = this.rightChild(currIndex);
+        	
+        	 
+        	 
+        	 
+        	 
+        	if (leftIndex < size && rightIndex < size && this.theData[leftIndex] > this.theData[rightIndex] ) {
+        		maxChildIndex = leftIndex;
+        	}else {
+        		maxChildIndex = rightIndex;
+        	}
 
-          }// end of if
-
-          if (this.theData[rightChildIndex] >= this.theData[leftChildIndex] && this.theData[rightChildIndex] > this.theData[index]){
-          maxIndex = rightChildIndex;
-
-          }// end of if
+    	}// end of while 
+    	
+    	
+    	
+    	
+//         int leftChildIndex = this.leftChild(index);
+//         int rightChildIndex = this.rightChild(index);
+//         int maxIndex = -1;
+//         
+//          
+//          if (leftChildIndex < this.size && rightChildIndex < this.size && this.theData[leftChildIndex] >= this.theData[rightChildIndex] && this.theData[leftChildIndex] > this.theData[index]){
+//          maxIndex = leftChildIndex;
+//
+//          }// end of if
+//
+//          if (leftChildIndex < this.size && rightChildIndex < this.size &&this.theData[rightChildIndex] >= this.theData[leftChildIndex] && this.theData[rightChildIndex] > this.theData[index]){
+//          maxIndex = rightChildIndex;
+//
+//          }// end of if
          //TODO might break change le to l
-          while (leftChildIndex <= size && rightChildIndex <= size && maxIndex != -1){
-          swap(index, maxIndex);
-          index = maxIndex;
+          //while (leftChildIndex < this.size && rightChildIndex < this.size &&leftChildIndex <= size && rightChildIndex <= size && maxIndex != -1){
+//          swap(index, maxIndex);
+//          index = maxIndex;
+//
+//          leftChildIndex = this.rightChild(index);
+//         rightChildIndex = this.rightChild(index);
+//           
+//          if (leftChildIndex < this.size && rightChildIndex < this.size &&this.theData[leftChildIndex] >= this.theData[rightChildIndex] && this.theData[leftChildIndex] > this.theData[index]){
+//          maxIndex = leftChildIndex;
+//
+//          }// end of if
+//
+//          if (leftChildIndex < this.size && rightChildIndex < this.size && this.theData[rightChildIndex] >= this.theData[leftChildIndex] && this.theData[rightChildIndex] > this.theData[index]){
+//          maxIndex = rightChildIndex;
+//
+//          }else {
+//        	  maxIndex = -1;
+//          }
 
-         int leftChildIndex = (2 * index) + 1;
-         int rightChildIndex = (2 * index ) + 2;
-          int maxIndex = -1;
-          if (this.theData[leftChildIndex] >= this.theData[rightChildIndex] && this.theData[leftChildIndex] > this.theData[index]){
-          maxIndex = leftChildIndex;
 
-          }// end of if
-
-          if (this.theData[rightChildIndex] >= this.theData[leftChildIndex] && this.theData[rightChildIndex] > this.theData[index]){
-          maxIndex = rightChildIndex;
-
-          }// end of if
-
-
-          }
+         // }// end of while 
 
 
 //  left child is (2* index) + 1

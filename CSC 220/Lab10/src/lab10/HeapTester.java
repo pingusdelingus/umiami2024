@@ -69,7 +69,7 @@ public class HeapTester {
          maxHeap1.offer(90);
          maxHeap1.offer(89);
          maxHeap1.offer(83);
-         System.out.println("maxheap1 : " + maxHeap1);
+       //  System.out.println("maxheap1 : " + maxHeap1);
          int[] arr11 = {97, 93, 87, 90, 89, 83, 0, 0, 0, 0, 0, 0, 0, 0, 0};
          if (!maxHeap1.IsEqual(arr11))
             System.err.println("TEST FAILED: offer 10");
@@ -81,7 +81,7 @@ public class HeapTester {
          if (maxVal1 != 97 || !maxHeap1.IsEqual(arr12))
             System.err.println("TEST FAILED: poll 1");
          
-         System.out.println("poll1 " + maxHeap1);
+         //System.out.println("poll1 " + maxHeap1);
 
 
          int maxVal2 = maxHeap1.poll();
@@ -93,11 +93,17 @@ public class HeapTester {
          MaxHeap maxHeap2 = new MaxHeap(15);
          if (maxHeap2.poll() != -1)
             System.err.println("TEST FAILED: poll 0");
-         System.out.println("Testing Done (lab) !!!");
+        // System.out.println("Testing Done (lab) !!!");
 
 
      // ********************* TESTS FOR ASSIGNMENT ****************************//
-      /* 
+      
+         int[] stuff1 = {84,22,19,10,3,6,17,5};
+         MaxHeap myheap = new MaxHeap(20);
+         myheap.sort(stuff1);
+         System.out.println(myheap + "this is res of sorting");
+         
+         
          int[] arr14 = {};
          MaxHeap maxHeap3 = new MaxHeap(arr14);
 
@@ -113,14 +119,17 @@ public class HeapTester {
          int[] arr16_2 = {3, 22};
          MaxHeap maxHeap5 = new MaxHeap(arr16_2);
          if (!maxHeap5.IsEqual(arr16))
-            System.err.println("TEST FAILED: constructor 2");
+            System.out.println("TEST FAILED: constructor 2");
+         System.out.println("this is constructor2: " + maxHeap5);
 
          int[] arr17 = {84, 22, 19, 17, 10, 5, 6, 3, 9};
          int[] arr17_2 = {5, 3, 17, 10, 84, 19, 6, 22, 9};
          MaxHeap maxHeap6 = new MaxHeap(arr17_2);
 
          if (!maxHeap6.IsEqual(arr17))
-            System.err.println("TEST FAILED: constructor 3");
+            System.out.println("TEST FAILED: constructor 3");
+         System.out.println("this is constructor3: " + maxHeap6);
+
 
          MaxHeap maxHeap7 = new MaxHeap(1);
          maxHeap7.sort(arr15);
@@ -130,16 +139,19 @@ public class HeapTester {
          MaxHeap maxHeap8 = new MaxHeap(2);
          maxHeap8.sort(arr16);
          if (!maxHeap8.IsEqual(arr16_2))
-            System.err.println("TEST FAILED: sort 2");
+            System.out.println("TEST FAILED: sort 2");
+         System.out.println("this is sort2 : " + maxHeap8);
+         System.out.println("this is size: " + maxHeap8.size());
 
          MaxHeap maxHeap9 = new MaxHeap(9);
          maxHeap9.sort(arr17_2);
          int[] arr18 = {3, 5, 6, 9, 10, 17, 19, 22, 84};
          if (!maxHeap9.IsEqual(arr18))
             System.err.println("TEST FAILED: sort 3");
+         System.out.println("this is sort3: " + maxHeap9);
 
-        System.out.println("Testing Done (assignment) !!!");
-      */
+        //System.out.println("Testing Done (assignment) !!!");
+      
 
     }
 
