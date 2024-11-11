@@ -1,7 +1,3 @@
-%  This LaTeX template is based on T.J. Hitchman's work which is itself based on Dana Ernst's template.  
-% 
-% --------------------------------------------------------------
-% Skip this stuff, and head down to where it says "Start here"
 % --------------------------------------------------------------
  
 \documentclass[12pt]{article}
@@ -11,6 +7,12 @@
 \usepackage{graphicx}
 \newenvironment{statement}[2][Section]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+%\fancypagestyle{secondpage}{ % Define a new page style for the second page
+%  \renewcommand{\headrulewidth}{0.4pt} % Add header line (optional)
+%  \lhead{Esteban Morales} % Set the left header
+%  \chead{MTH 310 -- Fall} % Set the center header
+%  \rhead{August 24, 2024 } % Set the right header
+%}
 
 \begin{document}
  
@@ -20,23 +22,35 @@
 %
 % --------------------------------------------------------------
  
-\title{MTH 542 Notes } % replace with the problem you are writing up
+\title{MTH 542 Notes on AIC and VIF } % replace with the problem you are writing up
 \author{Esteban Morales} % replace with your name
 \maketitle
 
 
-\begin{statement}{Review} %You can use theorem, exercise, problem, or question here.  Modify x.yz to be whatever number you are proving
-$
+\begin{statement}{x.yz} %You can use theorem, exercise, problem, or question here.  Modify x.yz to be whatever number you are proving
+VIF : Variance Inflation Factor
+a measure of the 'multi-collinearity' of a model of its predictors.
+VIF above 3 is generally bad, lower is better.\\
 
 
 
+
+
+AIC : Measure of how well a model fits a particular data set. Lower means 'better'.
+
+
+
+Linearity refers to linearity of parameters, not for x12s.
+
+non-parametric models are cases where the mean function is not specified.
+
+Locally weighted regression
 
 \end{statement}
  
+\begin{proof}  
 
-
-
-
+\end{proof}
  
 
 
